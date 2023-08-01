@@ -20,46 +20,65 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <nav>
-        <div class="container">
-            <button id="nav__btn--open"><i class='bx bx-menu'></i></button>
-            <button id="nav__btn--close"><i class='bx bx-x'></i></button>
-            <ul id="nav__items">
-                <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
-            </ul>
-            <a href="#" class="nav__logo">
-                <img src="./assets/img/logo.png" alt="Logo">
-            </a>
-            <div class="nav__contact">
-                <a href="#contact" class="contact_btn btn">Contact Me</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-    <!-- Hero Section Start -->
     <section id="hero">
+        <div class="orange-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 531" transform="rotate(45)">
+                <rect fill="#fe5b02" x="0" y="0" width="202" height="531" rx="100" ry="100" />
+            </svg>
+        </div>
+        <!-- Navbar Start -->
+        <nav>
+            <div class="container">
+                <button id="nav__btn--open"><i class='bx bx-menu'></i></button>
+                <button id="nav__btn--close"><i class='bx bx-x'></i></button>
+                <ul id="nav__items">
+                    <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                </ul>
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img/logo.png" alt="Logo">
+                </a>
+                <div class="nav__contact">
+                    <a href="#contact" class="contact_btn btn">Contact Me</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Section Start -->
         <div class="container">
             <div class="hero__content">
-                <h1>My name is <strong>Phu</strong></h1>
+                <h1>My name is <strong>Vinh Phu</strong></h1>
                 <p>
                     I am IT student at Macquarie University in Sydney, Autralia.📍
                 </p>
-                <a href="#" class="btn btn--primary">Hire Me</a>
+                <a href="#" class="hireme btn btn--primary">Hire Me</a>
+
+                <ul class="technology">
+                    <li class="HTML">HTML</li>
+                    <li class="CSS">CSS</li>
+                    <li class="python">Python</li>
+                    <li class="javascript">Javascript</li>
+                </ul>
             </div>
             <div class="hero__image">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 536" transform="rotate(45)">
-                    <rect fill="#fe5b02" x="110" y="0" width="202" height="531" rx="100" ry="100" />
-                    <rect fill="#4a90d6" x="288" y="209" width="71" height="0" />
-                </svg>
-
+                <div class="name-tag">
+                    <h3>Final-year</h3>
+                    <p>IT student</p>
+                </div>
                 <img src="./assets/img/Cutbody-removebg-preview.png" alt="">
+                <svg>
+                    <!-- Define the clip path with an ID -->
+                    <clipPath id="myClipPath"  transform="rotate(45)">
+                      <rect x="0" y="0" width="202" height="531" rx="100" ry="100" />
+                    </clipPath>
+                  </svg>
             </div>
         </div>
     </section>
-</body>
+    <!-- Hero Section End -->
 
+    <script src="./assets/js/main.js"></script>
+</body>
 </html>

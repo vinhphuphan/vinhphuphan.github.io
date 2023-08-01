@@ -63,6 +63,7 @@ section {
         background: $white-color;
         color : $primary-color;
         border : 1px solid $white-color;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
 
     &--primary {
