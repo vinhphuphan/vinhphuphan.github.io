@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            My Site!
-        </title>
-    </head>
-    <body>
-        <h1>This is my Github Pages website!</h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinh Phu </title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- Link Favicon -->
+    <!-- Android -->
+    <link rel="shortcut-icon" href="./assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <!-- Link icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav>
+        <div class="container">
+            <button id="nav__btn--open"><i class='bx bx-menu'></i></button>
+            <button id="nav__btn--close"><i class='bx bx-x'></i></button>
+            <ul id="nav__items">
+                <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+            </ul>
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo.png" alt="Logo">
+            </a>
+            <div class="nav__contact">
+                <a href="#contact" class="contact_btn btn">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1>My name is <strong>Phu</strong></h1>
+                <p>
+                    I am IT student at Macquarie University in Sydney, Autralia.📍
+                </p>
+                <a href="#" class="btn btn--primary">Hire Me</a>
+            </div>
+            <div class="hero__image">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 536" transform="rotate(45)">
+                    <rect fill="#fe5b02" x="110" y="0" width="202" height="531" rx="100" ry="100" />
+                    <rect fill="#4a90d6" x="288" y="209" width="71" height="0" />
+                </svg>
+
+                <img src="./assets/img/Cutbody-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
