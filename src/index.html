@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinh Phu</title>
+    <link rel="stylesheet" href="css/output.css">
+    <!-- Link Favicon -->
+    <!-- Android -->
+    <link rel="shortcut-icon" href="./assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <!-- Link icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Link Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link JS -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto py-6 px-20 xl:px-32">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- Menu Items -->
+            <div class="hidden gap-10 md:flex">
+                <a href="#" class="text-darkGrey text-secondary font-normal text-base transition-all duration-300 ease hover:text-primary">About Me</a>
+                <a href="#" class="text-darkGrey text-secondary font-normal text-base transition-all duration-300 ease hover:text-primary">Portfolio</a>
+                <a href="#" class="text-darkGrey text-secondary font-normal text-base transition-all duration-300 ease hover:text-primary">Resume</a>
+            </div>
+            <!-- Logo -->
+            <a href="#" class="absolute w-12 h-12 left-1/2 transform -translate-x-1/2 md:w-14 md:h-14">
+                <img srcset ="./assets/img/logo.png 16x" alt="">
+            </a>
+            <!-- Contact Button -->
+            <a href="#contact" class="p-3 px-9 text-darkGrey bg-grey rounded-full border-none text-secondary font-normal baseline transition-all duration-500 ease hover:bg-white hover:text-primary hover:boder-white hover:shadow-md hover:border">Contact Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="relative container mx-auto px-20 xl:px-32">
+        <div class="flex flex-col-reverse md:flex-row items-center mt-10 mx-auto space-y-0 md:space-y-0">
+            <!-- Left Item -->
+            <div class="flex flex-col gap-20 md:w-1/2">
+                <div class="flex flex-col space-y-6">
+                    <h1 class="max-w-md text-4xl font-normal text-center md:text-6xl md:text-left md:leading-[1.2] text-darkGrey">
+                        My name is <strong>Vinh Phu</strong>
+                    </h1>
+                    <p class="max-w-md text-center text-darkGrey md:text-left">
+                        I am IT student at Macquarie University in Sydney, Autralia.📍
+                    </p>
+                    <a href="#" class="w-fit py-4 px-20 text-center text-white bg-primary rounded-full border-none text-lg font-medium baseline transition-all duration-500 ease hover:bg-orange-300 hover:text-darkGrey hover:boder-white hover:shadow-md hover:border">Hire Me</a>
+                </div>
+                <div class="">
+                    <ul class="flex w-[60%] gap-4">
+                        <div class="w-1/2 flex flex-col gap-4">
+                            <li class="w-fit bg-orange-400 text-darkGrey text-lg font-normal px-12 py-4 rounded-lg transition-all duration-500 ease hover:bg-white hover:shadow-md">HTML</li>
+                            <li class="w-fit bg-gray-900 text-white text-lg font-normal px-12 py-4 rounded-lg transition duration-500 ease hover:bg-white hover:shadow-md hover:text-darkGrey">Python</li>
+                        </div>
+                        <div class="w-1/2 flex flex-col gap-4">
+                            <li class="w-fit bg-orange-500 text-white text-lg font-normal px-10 py-4 rounded-lg transition-all duration-500 ease hover:bg-white hover:shadow-md hover:text-darkGrey">CSS</li>
+                            <li class="w-fit bg-gray-300 text-darkGrey text-lg font-normal px-12 py-4 rounded-lg transition duration-500 ease hover:bg-white hover:shadow-md">Javascript</li>
+                        </div>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="flex md:w-1/2 items-center justify-center">
+                <div class="absolute md:left-1/2 transform -translate-x-1/2 z-10 w-fit bg-darkGrey text-white py-6 px-16 h-fit rounded-2xl text-2xl items-center">
+                    <h3>Final-year</h3>
+                    <p>IT student</p>
+                </div>
+                <div class="w-[100%]">
+                    <img class="w-[100%]" 
+                    style="clip-path: circle(309px at 347px 315px);" src="./assets/img/Cutbody-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
